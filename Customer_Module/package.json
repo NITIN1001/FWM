@@ -1,0 +1,49 @@
+{
+  "name": "donewithit",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^4.0.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/hooks": "^2.8.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-firebase/app": "^14.2.3",
+    "@react-native-firebase/database": "^14.3.1",
+    "@react-native-masked-view/masked-view": "0.2.6",
+    "@react-navigation/drawer": "^6.1.8",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "expo": "^44.0.6",
+    "expo-image-picker": "~12.0.1",
+    "expo-location": "^14.0.2",
+    "expo-permissions": "^13.1.1",
+    "expo-status-bar": "~1.2.0",
+    "firebase": "^7.20.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "^0.64.3",
+    "react-native-geolocation-service": "^5.3.0-beta.4",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-maps": "0.29.4",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-simple-time-picker": "^0.2.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "0.17.1",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-simple-timefield": "^3.2.5",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
