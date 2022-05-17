@@ -1,0 +1,136 @@
+.login_div,
+.register_div {
+  background-color: black;
+  padding: 20px;
+  width: 26%;
+  top: 30%;
+  left: 45%;
+  margin: -100px 0 0 -150px;
+  position: absolute;
+  z-index: 15;
+  font-size: 20px;
+  font-family: fantasy;
+  color: white;
+  opacity: 0.85;
+}
+.email,
+.psw,
+.cpsw {
+  background: transparent;
+  width: 95%;
+  padding: 5px;
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  color: white;
+  border-color: white;
+}
+.login,
+.sub {
+  color: white;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  padding: 5px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border-radius: 5px;
+  height: 45px;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  border: none;
+  opacity: 1;
+}
+.register {
+  float: right;
+  border: none;
+  border-radius: 3px;
+  width: 8%;
+  height: 30px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+.logo {
+  float: left;
+  height: 70px;
+  width: 180px;
+}
+.fpsw {
+  float: right;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logout {
+  float: right;
+  border: none;
+  border-radius: 3px;
+  width: 8%;
+  height: 30px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: dodgerblue;
+  cursor: pointer;
+  color: white;
+}
+.err-msg {
+  background-color: red;
+  color: white;
+  font-size: medium;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  opacity: 0.75;
+  border-radius: 5px;
+}
+.member {
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 20;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
